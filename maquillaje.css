@@ -1,0 +1,123 @@
+/* Estilo para el header, incluyendo la imagen de fondo */
+.header-banner {
+  background-image: url('https://aprende.com/wp-content/uploads/2020/08/kit-de-maquillaje-2-940x580.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  padding: 300px;
+  font-size: 3rem;
+}
+
+/* Otros estilos para la navegación */
+.navbar {
+  background-color: #080808;
+  padding: 5px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  margin: 1px;
+}
+
+.menu a, .menu button {
+  color: rgb(250, 241, 248);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #555;
+  border: royalblue;
+  border-radius: 5px;
+}
+
+.menu a:hover, .menu button:hover {
+  background-color: #ff99dd;
+}
+
+/* Estilo para la sección hero */
+.hero {
+  padding: 40px;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #f8f6f6;
+}
+Estilo para el header, incluyendo la imagen de fondo */
+.header-banner {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Altura de la sección de la cabecera */
+  background-image: url('https://aprende.com/wp-content/uploads/2020/08/kit-de-maquillaje-2-940x580.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  background-color: rgba(231, 181, 247, 0.5); /* Fondo oscuro para mejor contraste */
+  color: rgb(14, 13, 13);
+  padding: 20px 40px;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px
+
+/* Otros estilos para la navegación */
+navbar {
+  background-color: #444;
+  padding: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a, .menu button {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #6d075f;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu a:hover, .menu button:hover {
+  background-color: #52054b;
+}
+
+/* Estilo para la sección hero */
+.hero {
+  padding: 40px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #5a0344;
